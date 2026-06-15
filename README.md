@@ -55,7 +55,7 @@ Throughout the course, I will build and deploy AI-powered applications while lea
 
 | Day | Topic | Status |
 |------|---------|---------|
-| Day 1 | Introduction to Agents & Vibe Coding | 🚧 In Progress |
+| Day 1 | Introduction to Agents & Vibe Coding | Completed! |
 | Day 2 | TBD | ⏳ Pending |
 | Day 3 | TBD | ⏳ Pending |
 | Day 4 | TBD | ⏳ Pending |
