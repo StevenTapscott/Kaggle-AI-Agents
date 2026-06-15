@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "[MOCK TERRAFORM] $@"
+exit 0

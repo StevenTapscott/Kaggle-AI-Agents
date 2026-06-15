@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "[MOCK BQ] $@"
+if [[ "$*" == *"query"* ]]; then
+    # Return a simulated result representing the queried metadata row
+    echo '+--------------------+----------------------+---------------------------+------------+'
+    echo '|      filename      |         date         |           tags            | word_count |'
+    echo '+--------------------+----------------------+---------------------------+------------+'
+    echo '| live_test_demo.txt | 2026-06-15T21:28:47Z | ["serverless-pipeline"]   |         42 |'
+    echo '+--------------------+----------------------+---------------------------+------------+'
+fi
+exit 0

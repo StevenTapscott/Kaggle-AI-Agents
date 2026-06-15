@@ -1,0 +1,7 @@
+project_id             = "mock-project-id"
+region                 = "us-central1"
+bucket_name            = "mock-bucket-name"
+dataset_id             = "document_processing"
+table_id               = "processed_metadata"
+cloud_run_service_name = "document-processor"
+container_image        = "us-central1-docker.pkg.dev/mock-project-id/mock-repository/document-processor:latest"

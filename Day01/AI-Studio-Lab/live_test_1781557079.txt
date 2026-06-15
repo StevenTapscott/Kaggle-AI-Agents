@@ -1,0 +1,2 @@
+This is a live test document for validating the serverless event-driven document processing pipeline.
+It contains key terms like pipeline serverless bigquery testing automated workflow.
