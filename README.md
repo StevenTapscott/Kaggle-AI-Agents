@@ -1,26 +1,26 @@
-# AI Agents Intensive with Google (In Progress)
+# AI Agents Intensive with Google
 
 ## Project Overview
 
 This repository documents my participation in the **5-Day AI Agents Intensive Course with Google**, hosted through Kaggle.
 
-The program explores the evolution from traditional software development toward **agentic engineering** and **vibe coding**, where developers increasingly act as orchestrators of AI systems rather than manually writing every line of code.
+The program explores the evolution of software development from traditional syntax-based coding toward **agentic engineering** and **vibe coding**, where developers increasingly act as system designers, evaluators, and orchestrators of AI-powered workflows.
 
-Throughout the course, I will build and deploy AI-powered applications while learning how to work with AI agents, prompt engineering, evaluation frameworks, cloud deployment, and modern development workflows.
+Throughout the course, I am building practical knowledge of AI agents, context engineering, interoperability standards, cloud deployment, and AI-assisted software development while documenting key concepts, labs, and reflections.
 
-**Status:** 🚧 In Progress
+**Status:** 🚧 Day 1 Complete | Day 2 In Progress
 
 ---
 
 ## Objectives
 
-- Understand the fundamentals of AI agents
-- Learn agentic engineering principles
-- Explore vibe coding workflows
-- Build applications using Google AI tools
-- Deploy applications to the cloud
-- Document practical use cases for analytics and business intelligence professionals
-- Create a portfolio-ready showcase of AI-assisted development
+- Understand AI agents and agentic workflows
+- Explore vibe coding and AI-assisted development
+- Learn modern AI-driven software development practices
+- Build and deploy AI-powered applications
+- Understand interoperability standards for AI systems
+- Develop portfolio-ready AI engineering documentation
+- Explore practical applications for analytics and business intelligence
 
 ---
 
@@ -29,25 +29,25 @@ Throughout the course, I will build and deploy AI-powered applications while lea
 ### AI & Development
 
 - Google AI Studio
-- Antigravity 2.0
-- Antigravity IDE
+- Antigravity
 - Antigravity CLI
 - Gemini Models
+- AI Agents
 
 ### Cloud & Deployment
 
 - Google Cloud Run
 
+### Standards & Protocols
+
+- Model Context Protocol (MCP)
+- Agent-to-Agent (A2A)
+- Agent-to-User Interface (A2UI)
+
 ### Version Control
 
 - Git
 - GitHub
-
-### Languages
-
-- Python
-- JavaScript (where applicable)
-- HTML/CSS (where applicable)
 
 ---
 
@@ -55,8 +55,8 @@ Throughout the course, I will build and deploy AI-powered applications while lea
 
 | Day | Topic | Status |
 |------|---------|---------|
-| Day 1 | Introduction to Agents & Vibe Coding | 🚧 In Progress |
-| Day 2 | TBD | ⏳ Pending |
+| Day 1 | Introduction to Agents & Vibe Coding | ✅ Complete |
+| Day 2 | Agent Tools & Interoperability | 🚧 In Progress |
 | Day 3 | TBD | ⏳ Pending |
 | Day 4 | TBD | ⏳ Pending |
 | Day 5 | TBD | ⏳ Pending |
@@ -65,114 +65,147 @@ Throughout the course, I will build and deploy AI-powered applications while lea
 
 # Day 1 – Introduction to Agents & Vibe Coding
 
-## Learning Objectives
+## Topics Covered
 
-- Understand AI agents
-- Explore vibe coding concepts
-- Learn the modern AI-driven SDLC
-- Use Antigravity development tools
-- Deploy a web application using Google AI Studio and Cloud Run
+- AI Agents
+- Agentic Engineering
+- Vibe Coding
+- Context Engineering
+- AI-Driven SDLC
+- Factory Model
+- Harness Engineering
+- Developer Evolution (Conductor → Orchestrator)
 
 ---
 
-## Key Concepts
+## Key Learning Outcomes
 
-### Agentic Engineering
+### The Shift from Syntax to Intent
 
-Agentic engineering focuses on designing systems where AI agents can autonomously execute tasks while operating within defined constraints, context, and evaluation frameworks.
+Traditional software development focuses on writing code. Modern AI-assisted development focuses on expressing intent while AI agents generate implementation details.
 
-### Vibe Coding
+### Vibe Coding vs Agentic Engineering
 
-Vibe coding shifts software development from manually writing syntax toward describing intent and allowing AI systems to generate implementation details.
+The course introduced the spectrum between:
 
-### The New SDLC
+- Vibe Coding (rapid experimentation)
+- Structured AI-Assisted Development
+- Agentic Engineering (production-grade systems)
 
-Traditional software development:
+The primary differentiator is the level of verification, governance, and evaluation surrounding AI-generated outputs.
+
+### Context Engineering
+
+The quality of AI-generated output depends on:
+
+- Instructions
+- Knowledge
+- Memory
+- Examples
+- Tools
+- Guardrails
+
+Context engineering is emerging as one of the most important skills in AI-assisted development.
+
+### The Factory Model
+
+Modern developers increasingly design:
+
+- Specifications
+- Constraints
+- Tests
+- Evaluation frameworks
+- Feedback loops
+
+rather than manually implementing every component themselves.
+
+### Harness Engineering
+
+The whitepaper introduced the concept:
 
 ```text
-Requirements → Design → Code → Test → Deploy
+Agent = Model + Harness
 ```
 
-Agentic development:
+The harness includes:
 
-```text
-Intent → Context → AI Generation → Evaluation → Deployment
-```
+- Instructions
+- Tools
+- Sandboxes
+- Orchestration
+- Guardrails
+- Observability
 
----
+Many AI failures are harness failures rather than model failures.
 
-## Whitepaper Notes
+### The Evolving Developer Role
 
-### The New SDLC with Vibe Coding
+Developers increasingly operate in two modes:
 
-#### Key Takeaways
+#### Conductor
 
-- AI agents compress traditional development cycles.
-- Developers increasingly become system orchestrators.
-- Context quality directly impacts AI output quality.
-- Evaluation frameworks are critical for reliable AI-generated solutions.
-- Constraints and guardrails are required for safe autonomous execution.
+- Real-time guidance
+- Pair programming
+- Interactive collaboration
 
----
+#### Orchestrator
 
-## Codelab 1
-
-### Get Started with Antigravity 2.0 and IDE
-
-**Status:** ⏳ Not Started
-
-#### Objectives
-
-- Install and configure Antigravity
-- Explore IDE functionality
-- Learn AI-assisted development workflow
-- Build first AI-generated application
-
-#### Notes
-
-_To be completed._
+- Goal definition
+- Multi-agent coordination
+- Output evaluation
+- Workflow management
 
 ---
 
-## Codelab 2
+## Day 1 Labs
 
-### Build a Web Application in AI Studio and Deploy to Cloud Run
+### Antigravity
 
-**Status:** ⏳ Not Started
+Completed introductory setup and familiarisation with Google's AI-assisted development environment.
 
-#### Objectives
+### Google AI Studio & Cloud Run
 
-- Create application in Google AI Studio
-- Deploy application to Cloud Run
-- Share deployed application
-- Understand cloud deployment workflow
-
-#### Notes
-
-_To be completed._
+Explored the workflow for building and deploying AI-generated applications using Google tooling.
 
 ---
 
-# Analytics Perspective
+## Day 1 Reflection
 
-As an aspiring Data Analyst, this course provides insight into how AI agents can support:
+The most significant insight from Day 1 was that AI is not replacing engineering discipline—it is increasing the importance of architecture, evaluation, verification, and judgment.
 
-- Data preparation
-- Report generation
-- Dashboard development
-- Workflow automation
-- Business process optimisation
-- Decision support systems
+As implementation becomes increasingly automated, the most valuable skills shift toward:
 
-The concepts learned here complement existing skills in:
+- Problem definition
+- Context engineering
+- Evaluation design
+- System architecture
+- Quality assurance
 
-- SQL
-- Python
-- Power BI
-- Tableau
-- Excel
-- Power Apps
-- Dataverse
+These concepts align strongly with modern data analytics practices, particularly around governance, validation, testing, and business requirements analysis.
+
+---
+
+# Day 2 – Agent Tools & Interoperability
+
+## Current Focus
+
+### Topics
+
+- Model Context Protocol (MCP)
+- Agent-to-Agent Communication (A2A)
+- Agent-to-User Interface (A2UI)
+- Agent Payments Protocol (AP2)
+- Universal Commerce Protocol (UCP)
+- Antigravity CLI
+- MCP Servers
+
+### Learning Objectives
+
+- Understand AI interoperability standards
+- Configure and use MCP servers
+- Explore Google Developer Knowledge MCP Server
+- Use Antigravity through the command line
+- Understand how AI agents interact with external systems
 
 ---
 
@@ -181,16 +214,22 @@ The concepts learned here complement existing skills in:
 ```text
 AI-Agents-Intensive-Google/
 
-│
 ├── README.md
 │
 ├── Day01/
 │   ├── Whitepaper-Notes.md
+│   ├── Key-Concepts.md
 │   ├── Antigravity-Lab/
 │   ├── AI-Studio-Lab/
-│   └── Screenshots/
+│   └── Reflection.md
 │
 ├── Day02/
+│   ├── Whitepaper-Notes.md
+│   ├── MCP-Concepts.md
+│   ├── Antigravity-CLI-Lab/
+│   ├── MCP-Server-Lab/
+│   └── Reflection.md
+│
 ├── Day03/
 ├── Day04/
 ├── Day05/
@@ -200,13 +239,17 @@ AI-Agents-Intensive-Google/
 
 ---
 
-# Future Enhancements
+# Applications to Data Analytics
 
-- Build custom AI agent projects
-- Integrate AI workflows with Power BI
-- Explore AI-assisted analytics automation
-- Develop agent-powered business intelligence applications
-- Deploy additional cloud-based AI solutions
+Key concepts from this course have direct relevance to:
+
+- AI-assisted analytics
+- Automated reporting
+- Business intelligence workflows
+- Data governance
+- Data quality monitoring
+- Workflow orchestration
+- Intelligent decision support systems
 
 ---
 
@@ -215,6 +258,14 @@ AI-Agents-Intensive-Google/
 **Steven Tapscott**
 
 GitHub: https://github.com/StevenTapscott
+
+---
+
+## Current Status
+
+✅ Day 1 Complete
+
+🚧 Day 2 In Progress
 
 ---
 
