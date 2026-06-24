@@ -1,0 +1,6 @@
+{
+  "project": "project-2c6026af-6a18-4d62-a5c",
+  "location": "us-east1",
+  "deployment_target": "agent_runtime",
+  "agent_engine_id": "projects/151543826805/locations/us-east1/reasoningEngines/2663773626473381888"
+}

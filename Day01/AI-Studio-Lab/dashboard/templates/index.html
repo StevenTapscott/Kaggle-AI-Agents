@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCP Document Pipeline Dashboard</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar or Logo -->
+        <header class="app-header">
+            <div class="logo-area">
+                <div class="pulse-dot"></div>
+                <h1>Document Pipeline Hub</h1>
+            </div>
+            <p class="subtitle">Serverless Event-Driven Document OCR & Metadata Extraction Dashboard</p>
+        </header>
+
+        <!-- KPI / Stats Section -->
+        <section class="kpi-grid">
+            <div class="kpi-card" id="kpi-total-docs">
+                <div class="kpi-icon icon-docs">📄</div>
+                <div class="kpi-content">
+                    <span class="kpi-label">Processed Documents</span>
+                    <h2 class="kpi-value" id="val-total-docs">0</h2>
+                </div>
+            </div>
+            <div class="kpi-card" id="kpi-total-words">
+                <div class="kpi-icon icon-words">📝</div>
+                <div class="kpi-content">
+                    <span class="kpi-label">Total Word Count</span>
+                    <h2 class="kpi-value" id="val-total-words">0</h2>
+                </div>
+            </div>
+            <div class="kpi-card" id="kpi-unique-tags">
+                <div class="kpi-icon icon-tags">🏷️</div>
+                <div class="kpi-content">
+                    <span class="kpi-label">Unique Tags</span>
+                    <h2 class="kpi-value" id="val-unique-tags">0</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter and Search Bar -->
+        <section class="controls-panel">
+            <div class="search-wrapper">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search-input" placeholder="Search documents by filename..." autocomplete="off">
+            </div>
+            <div class="filter-group">
+                <label for="tag-filter">Filter by Tag:</label>
+                <div class="select-wrapper">
+                    <select id="tag-filter">
+                        <option value="">All Tags</option>
+                    </select>
+                </div>
+            </div>
+            <button id="reset-btn" class="btn btn-secondary">Reset Filters</button>
+        </section>
+
+        <!-- Data Display Area -->
+        <main class="table-container">
+            <div class="table-header-row">
+                <h3>Extracted Document Metadata</h3>
+                <span class="badge" id="source-badge">Connecting...</span>
+            </div>
+            <div class="responsive-table-wrapper">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Filename</th>
+                            <th>Processed Time</th>
+                            <th>Tags</th>
+                            <th class="text-right">Word Count</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <tr>
+                            <td colspan="4" class="table-loading">
+                                <div class="spinner"></div>
+                                <span>Loading metadata from BigQuery...</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Empty state -->
+            <div class="empty-state hidden" id="empty-state">
+                <div class="empty-icon">📂</div>
+                <h4>No matching documents found</h4>
+                <p>Try adjusting your search criteria or tag filters.</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Main JS entrypoint -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Replace the values below with your GCP project configuration
+project_id             = "your-gcp-project-id"
+region                 = "us-central1"
+bucket_name            = "your-globally-unique-bucket-name"
+dataset_id             = "document_processing"
+table_id               = "processed_metadata"
+cloud_run_service_name = "document-processor"
+
+# Make sure this image is built and uploaded to Artifact Registry or Container Registry
+container_image        = "us-central1-docker.pkg.dev/your-gcp-project-id/your-repository/document-processor:latest"

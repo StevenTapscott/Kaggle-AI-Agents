@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 35f15e38d0a67465b55a72dccb790282fa6a4ed2 Steven Tapscott <steventapscott@hotmail.co.uk> 1781815008 +0100	commit (initial): feat(auth): initialize login function
+35f15e38d0a67465b55a72dccb790282fa6a4ed2 a28b150d591207869a0af397276bbdc1518e447c Steven Tapscott <steventapscott@hotmail.co.uk> 1781815261 +0100	commit: chore(auth): add license header to auth.py
